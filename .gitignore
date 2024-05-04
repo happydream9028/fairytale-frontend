@@ -2,7 +2,6 @@ node_modules/
 .idea/
 .nvmrc
 build
-yarn.lock
 .env
 /test-results/
 /playwright-report/

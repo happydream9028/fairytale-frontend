@@ -59,7 +59,7 @@
     "faker": "6.6.6",
     "firebase": "10.3.1",
     "formik": "2.4.5",
-    "google-map-react": "2.1.10",
+    "google-map-react": "2.2.1",
     "history": "5.3.0",
     "i18next": "21.6.16",
     "jsonwebtoken": "8.5.1",
