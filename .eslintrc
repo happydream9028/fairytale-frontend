@@ -1,0 +1,15 @@
+{
+  "extends": ["react-app", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "warn",
+    "array-callback-return": 0,
+    "no-unused-vars": 0,
+    "max-len": [
+      "error",
+      {
+        "code": 120
+      }
+    ]
+  }
+}

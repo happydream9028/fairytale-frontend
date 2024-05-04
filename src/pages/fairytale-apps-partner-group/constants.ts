@@ -1,0 +1,111 @@
+import { IFormAtributes } from "../../types/feed";
+
+export const PARTNER_GROUP_CREATE_FORM_ATTRIBUTES: IFormAtributes[] = [
+  {
+    type: "text",
+    name: "title",
+    required: true,
+    placeholder: "titlePlaceholder",
+    visible: true,
+    label: "titleName",
+    translateText: "titleName",
+    value: "",
+    disabled: false,
+  },
+  {
+    type: "text",
+    name: "title_en",
+    required: true,
+    placeholder: "title_enPlaceholder",
+    visible: true,
+    label: "title_enName",
+    translateText: "title_enName",
+    value: "",
+    disabled: false,
+  }, 
+  {
+    type: "text",
+    name: "column_count",
+    required: true,
+    placeholder: "column_countPlaceholder",
+    visible: true,
+    label: "column_countName",
+    translateText: "column_countName",
+    value: "",
+    disabled: false,
+  },
+];
+
+
+export const PARTNER_GROUP_FORM_ATTRIB_DATA: Array<IFormAtributes> = [
+  {
+    type: "text",
+    name: "title",
+    required: true,
+    placeholder: "titlePlaceholder",
+    visible: true,
+    label: "titleName",
+    translateText: "titleName",
+    value: "",
+    disabled: false,
+  },
+  {
+    type: "text",
+    name: "title_en",
+    required: true,
+    placeholder: "title_enPlaceholder",
+    visible: true,
+    label: "title_enName",
+    translateText: "title_enName",
+    value: "",
+    disabled: false,
+  }, 
+  {
+    type: "text",
+    name: "column_count",
+    required: true,
+    placeholder: "column_countPlaceholder",
+    visible: true,
+    label: "column_countName",
+    translateText: "column_countName",
+    value: "",
+    disabled: false,
+  },
+];
+
+
+export const PARTNER_FORM_ATTRIB_DATA: Array<IFormAtributes> = [
+  {
+    type: "text",
+    name: "title",
+    required: true,
+    placeholder: "titlePlaceholder",
+    visible: true,
+    label: "titleName",
+    translateText: "titleName",
+    value: "",
+    disabled: false,
+  },
+  {
+    type: "text",
+    name: "url",
+    required: true,
+    placeholder: "urlPlaceholder",
+    visible: true,
+    label: "urlName",
+    translateText: "urlnName",
+    value: "",
+    disabled: false,
+  }, 
+  {
+    type: "file",
+    name: "image",
+    required: false,
+    placeholder: "imagePlaceholder",
+    visible: true,
+    label: "image",
+    translateText: "image",
+    value: "",
+    disabled: false,
+  },
+];
